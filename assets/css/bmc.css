@@ -291,3 +291,6 @@ h1,h2,h3,h4,h5,h6{letter-spacing:0}
 .bmc-approach__body .bmc-pull{margin:2rem 0;padding:.2rem 0 .2rem 1.4rem;border-left:3px solid var(--bmc-sun);font-family:var(--bmc-body);font-style:italic;font-size:1.35rem;line-height:1.5;color:var(--bmc-ink)}
 .bmc-approach__body .bmc-pull{text-wrap:balance}
 .bmc-contact--solo{grid-template-columns:1fr;max-width:46rem}
+
+/* ===== v54: square image corners ===== */
+.bmc-portrait,.bmc-quote__img,.bmc-portrait img,.bmc-quote__img img{border-radius:0}
