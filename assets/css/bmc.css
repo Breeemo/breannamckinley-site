@@ -306,3 +306,11 @@ h1,h2,h3,h4,h5,h6{letter-spacing:0}
 .bmc-announce a:hover{text-decoration:underline}
 .bmc-hero{padding-top:calc(var(--nav-h) + 6.5rem)}
 html{scroll-padding-top:calc(var(--nav-h) + 2.5rem)}
+
+/* ===== v63: bigger yellow announcement band ===== */
+.bmc-announce{background:#F2B740;color:#1F3150;font-size:1.15rem;font-weight:700;padding:1.05rem 1rem;letter-spacing:.01em}
+.bmc-announce a{color:#1F3150!important;text-decoration:underline;text-underline-offset:.2em;text-decoration-thickness:2px}
+.bmc-announce a:hover{color:#FFFFFF!important}
+.bmc-hero{padding-top:calc(var(--nav-h) + 8rem)}
+html{scroll-padding-top:calc(var(--nav-h) + 3.6rem)}
+@media (max-width:40em){.bmc-announce{font-size:1rem;padding:.9rem 1rem}}
