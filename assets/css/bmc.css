@@ -314,3 +314,9 @@ html{scroll-padding-top:calc(var(--nav-h) + 2.5rem)}
 .bmc-hero{padding-top:calc(var(--nav-h) + 8rem)}
 html{scroll-padding-top:calc(var(--nav-h) + 3.6rem)}
 @media (max-width:40em){.bmc-announce{font-size:1rem;padding:.9rem 1rem}}
+
+/* ===== v64: larger announcement band ===== */
+.bmc-announce{font-size:1.4rem;padding:1.4rem 1rem}
+.bmc-hero{padding-top:calc(var(--nav-h) + 10rem)}
+html{scroll-padding-top:calc(var(--nav-h) + 5rem)}
+@media (max-width:40em){.bmc-announce{font-size:1.1rem;padding:1.1rem 1rem}}
