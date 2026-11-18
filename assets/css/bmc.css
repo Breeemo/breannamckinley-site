@@ -294,3 +294,8 @@ h1,h2,h3,h4,h5,h6{letter-spacing:0}
 
 /* ===== v54: square image corners ===== */
 .bmc-portrait,.bmc-quote__img,.bmc-portrait img,.bmc-quote__img img{border-radius:0}
+
+/* ===== v60: Jane booking buttons ===== */
+.bmc-ctas--contact{display:flex;flex-wrap:wrap;gap:.8rem;margin:1.6rem 0}
+.bmc-btn--outline{background:transparent;color:var(--bmc-red)!important;box-shadow:inset 0 0 0 2px var(--bmc-red)}
+.bmc-btn--outline:hover{background:var(--bmc-red);color:#fff!important}
